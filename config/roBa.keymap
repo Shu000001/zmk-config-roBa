@@ -29,7 +29,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        QW_ESC {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
