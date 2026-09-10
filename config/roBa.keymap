@@ -124,7 +124,7 @@
 
         ARROW {
             bindings = <
-&kp ESC  &kp GRAVE  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp GRAVE  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp MINUS
 &kp TAB  &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans     &trans  &trans  &trans  &trans      &trans  &trans                          &trans
