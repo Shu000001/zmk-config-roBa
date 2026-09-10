@@ -124,10 +124,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ESC  &kp GRAVE  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&kp TAB  &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans     &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
